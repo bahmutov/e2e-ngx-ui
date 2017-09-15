@@ -1,6 +1,6 @@
 describe("ngx-ui basics", () => {
   beforeEach(() => {
-    cy.visit("/", {timeout: 10000})
+    cy.visit("/", {timeout: 20000})
     cy.contains("Angular Style and Component Library")
   })
 
