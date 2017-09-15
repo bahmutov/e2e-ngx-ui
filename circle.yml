@@ -5,3 +5,7 @@ machine:
 dependencies:
   cache_directories:
     - "node_modules"
+
+test:
+  override:
+    - cypress run --record
